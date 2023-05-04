@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "folio",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n# and this is and r code-block\n\n1 + 1\n\n[1] 2\n\n\n\nrstudio\nnew project\nquarto book\nenvironment\nbuild > render book\nterminal > git clone https://~/kulala\ncp -r quarto/* kulala\ncd kulala\ngit add ./*\ngit commit -m “first”\ngit push\nghp-import -n -p -f _book\ngh-pages branch\nview deployment\nhttps://muzaale.github.io/kulala/\n\nqui do https://raw.githubusercontent.com/jhustata/book/main/nhanes-alpha.ado  \nset scheme s2color\nnhanes\nuse nh3andmort, clear\ndi \"obs: `c(N)' & vars: `c(k)'\""
   },
   {
     "objectID": "intro.html",

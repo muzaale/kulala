@@ -5,5 +5,32 @@ This is a Quarto book.
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
 ```{r}
+
+# and this is and r code-block
+
 1 + 1
+```
+
+1.  rstudio
+2.  new project
+3.  quarto book
+4.  environment
+5.  build \> render book
+6.  terminal \> git clone https://\~/kulala
+7.  cp -r quarto/\* kulala
+8.  cd kulala
+9.  git add ./\*
+10. git commit -m "first"
+11. git push
+12. ghp-import -n -p -f \_book
+13. gh-pages branch
+14. view deployment
+15. https://muzaale.github.io/kulala/
+
+``` stata
+qui do https://raw.githubusercontent.com/jhustata/book/main/nhanes-alpha.ado  
+set scheme s2color
+nhanes
+use nh3andmort, clear
+di "obs: `c(N)' & vars: `c(k)'"  
 ```
